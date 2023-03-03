@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         // what screen should show at startup
-        let vc = ViewController()
+        let vc = RMTabViewController()
         
         let window = UIWindow(windowScene: windowScene)
         window.rootViewController = vc
