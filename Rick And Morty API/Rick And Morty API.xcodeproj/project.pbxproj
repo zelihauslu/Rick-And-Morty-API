@@ -77,10 +77,18 @@
 		DDD9A65829B14B3000AC24B8 = {
 			isa = PBXGroup;
 			children = (
+				DDD9A67229B14B3200AC24B8 /* Info.plist */,
+				DDD9A6A829B1E12500AC24B8 /* APIClient  */,
+				DDD9A6A429B1E0C300AC24B8 /* Controllers  */,
+				DDD9A6A929B1E15C00AC24B8 /* Managers  */,
+				DDD9A6A529B1E10F00AC24B8 /* Models  */,
+				DDD9A66229B14B3000AC24B8 /* Products */,
+				DDD9A6AA29B1E16300AC24B8 /* Resources  */,
 				DDD9A66329B14B3000AC24B8 /* Rick And Morty API */,
 				DDD9A67A29B14B3200AC24B8 /* Rick And Morty APITests */,
 				DDD9A68429B14B3200AC24B8 /* Rick And Morty APIUITests */,
-				DDD9A66229B14B3000AC24B8 /* Products */,
+				DDD9A6A729B1E11D00AC24B8 /* ViewModels  */,
+				DDD9A6A629B1E11700AC24B8 /* Views  */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +105,6 @@
 		DDD9A66329B14B3000AC24B8 /* Rick And Morty API */ = {
 			isa = PBXGroup;
 			children = (
-				DDD9A66429B14B3000AC24B8 /* AppDelegate.swift */,
-				DDD9A66629B14B3000AC24B8 /* SceneDelegate.swift */,
-				DDD9A66829B14B3000AC24B8 /* ViewController.swift */,
-				DDD9A66D29B14B3200AC24B8 /* Assets.xcassets */,
-				DDD9A66F29B14B3200AC24B8 /* LaunchScreen.storyboard */,
-				DDD9A67229B14B3200AC24B8 /* Info.plist */,
 			);
 			path = "Rick And Morty API";
 			sourceTree = "<group>";
@@ -122,6 +124,61 @@
 				DDD9A68729B14B3200AC24B8 /* Rick_And_Morty_APIUITestsLaunchTests.swift */,
 			);
 			path = "Rick And Morty APIUITests";
+			sourceTree = "<group>";
+		};
+		DDD9A6A429B1E0C300AC24B8 /* Controllers  */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9A66829B14B3000AC24B8 /* ViewController.swift */,
+			);
+			path = "Controllers ";
+			sourceTree = "<group>";
+		};
+		DDD9A6A529B1E10F00AC24B8 /* Models  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Models ";
+			sourceTree = "<group>";
+		};
+		DDD9A6A629B1E11700AC24B8 /* Views  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Views ";
+			path = "Views ü";
+			sourceTree = "<group>";
+		};
+		DDD9A6A729B1E11D00AC24B8 /* ViewModels  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ViewModels ";
+			sourceTree = "<group>";
+		};
+		DDD9A6A829B1E12500AC24B8 /* APIClient  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "APIClient ";
+			sourceTree = "<group>";
+		};
+		DDD9A6A929B1E15C00AC24B8 /* Managers  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Managers ";
+			sourceTree = "<group>";
+		};
+		DDD9A6AA29B1E16300AC24B8 /* Resources  */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9A66429B14B3000AC24B8 /* AppDelegate.swift */,
+				DDD9A66629B14B3000AC24B8 /* SceneDelegate.swift */,
+				DDD9A66D29B14B3200AC24B8 /* Assets.xcassets */,
+				DDD9A66F29B14B3200AC24B8 /* LaunchScreen.storyboard */,
+			);
+			path = "Resources ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
