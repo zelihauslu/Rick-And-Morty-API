@@ -8,6 +8,7 @@
 import Foundation
 
 /// Represent uniq API endpoints
+// If @frozen is added to a structure, it indicates that the structure is immutable and cannot be changed or disabled later.
 @frozen enum RMEndpoint : String{
     
     /// Endpoint to get character info
